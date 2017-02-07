@@ -1,0 +1,118 @@
+/************************************/
+/*****			Import 			*****/
+/************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+/************************************/
+/*****			Container		*****/
+/************************************/
+body {
+	background-color: black;
+	background-image: url(../img/bg.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#win {
+	background-color: black;
+	background-image: url(../img/bg_2.gif);
+}
+#container {
+	margin: 0 auto;
+	max-width: 900px;
+	width: 100%;
+	/*min-height: 800px;*/
+	height: 100%;
+	background-color: white;
+	opacity: 0.9;
+}
+#container-2 {
+	margin: 0 auto;
+	max-width: 900px;
+	width: 100%;
+	/*min-height: 800px;*/
+	height: 100%;
+	background-color: grey;
+	opacity: 0.9;
+}
+#container-3 {
+	margin: 0 auto;
+	max-width: 900px;
+	width: 100%;
+	/*min-height: 800px;*/
+	height: 100%;
+	background-color: #DB5656;
+	opacity: 0.9;
+}
+/************************************/
+/*****			Header			*****/
+/************************************/
+
+header {
+	width: 98%;
+	margin-top: 25px;
+
+}
+
+header h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 2.5em;
+	text-align: center;
+
+}
+header h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+/************************************/
+/*****			Section			*****/
+/************************************/
+
+section {
+	width: 98%;
+	margin-top: 35%;
+
+}
+article {
+	width: 30%;
+	display: inline;
+	float: left;
+}
+article h2 {
+	font-size: 1.75em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+button {
+	padding: 10px;
+	background-color: black;
+	border: 0;
+	border-radius: 15px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.25em;
+	font-family: 'Roboto', sans-serif;
+
+}
+button:hover {
+	background-color: gray;	
+}
+#win-col {
+	width: 98%;
+}
+
+/************************************/
+/*****			Footer			*****/
+/************************************/
+
+footer {
+	clear: both;
+	margin-top: 90%;
+	margin-bottom: 20px;
+}
+footer p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.75em;
+}
